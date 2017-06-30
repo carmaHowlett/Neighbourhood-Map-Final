@@ -83,7 +83,7 @@ var locationsData = [{
 var foursquare = {
     clientId: 'MZLMMHMDYLLSPW0ACCE3DMRMHUQEYGIOPXH5ITOJBTD0D4ON',
     clientSecret: '1G32AEUJHLJJ0JD1N54L3E4FQRR1XSPGPEKCWECKSKLT0HPB',
-}
+};
 
 // Created a variable for the map view //
 var mapView;
@@ -156,7 +156,7 @@ var viewModel = function() {
     chooseLocationsData = function(link) {
         google.maps.event.trigger(link.marker, 'click');
     };
-}
+};
 
 // Our model for location data with marker, JSON call //
 var mapModel = function(ldData) {
@@ -171,7 +171,7 @@ var mapModel = function(ldData) {
     // Gather data about the venue from the Foursquare Api in JSON formatting //
     $.getJSON('https://api.foursquare.com/v2/venues/' + ldData.foursquare + '?v=20170612&client_id=MZLMMHMDYLLSPW0ACCE3DMRMHUQEYGIOPXH5ITOJBTD0D4ON&client_secret=1G32AEUJHLJJ0JD1N54L3E4FQRR1XSPGPEKCWECKSKLT0HPB', function(allData) {
         var mapVenue = $.map(allData.response, function(item) {
-            return new Venue(item)
+            return new Venue(item);
         });
         // Handles displaying the name of the location, altDescription, and location information retrieved from FourSquare //
         var contentString = '<div id="content">' +
@@ -227,7 +227,7 @@ var mapModel = function(ldData) {
     // Handles the listener on the map marker which makes it animate bounce, //
     // hears that a list item has been clicked and triggers the info window to appear on the map //
     self.marker.addListener('click', function() {
-        var bouncingMarker = this
+        var bouncingMarker = this;
         // Handles the bouncing animation //
         bouncingMarker.setAnimation(google.maps.Animation.BOUNCE);
         // Handles the time it takes to animate the the marker bounce, 700ms //
@@ -251,4 +251,4 @@ var mapModel = function(ldData) {
 
     // Handles adding the marker to the map //
     self.marker.setMap(map);
-}
+};
