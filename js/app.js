@@ -1,9 +1,9 @@
 // Created an array list of loactions that will appear on our map //
 // Each location is a pizza place or restaurant in the neighbourhood //
 // The location data includes a name of the location, which matches the //
-// name found on FourSquare, a Lat and Lng coordinate, a unique FS id #, //
+// name found on FourSquare, a Lat and Lng coordinate, a unique FS id number, //
 // and a alternative description for the information window details //
-// the location coordinated and unique id #'s can be found at https://developer.foursquare.com/docs/explore //
+/* jshint -W100 */
 var locationsData = [{
         name: 'Sparkys Family Restaurant',
         lat: 50.40584037032503,
