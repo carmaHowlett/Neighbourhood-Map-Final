@@ -9,70 +9,70 @@ var locationsData = [{
         lat: 50.40584037032503,
         lng: -104.63804520901597,
         foursquare: '4c156c71127f9521f7042525',
-        altDescription: 'Also known as the Sparkledome',
+        altDescription: 'Also known as the Sparkledome'
     },
     {
         name: 'Pizza Pizza',
         lat: 50.417880985180474,
         lng: -104.61953207287549,
         foursquare: '4bb54278ef159c74b88b74f7',
-        altDescription: 'Hot and ready to go',
+        altDescription: 'Hot and ready to go'
     },
     {
         name: 'Houston Pizza',
         lat: 50.48129281672004,
         lng: -104.66588481747148,
         foursquare: '4bb55102941ad13acc1d1ee3',
-        altDescription: 'Real Good Food',
+        altDescription: 'Real Good Food'
     },
     {
         name: 'Tumblers Pizza',
         lat: 50.40798702150921,
         lng: -104.61024372050086,
         foursquare: '4bbb30313db7b713c501249a',
-        altDescription: 'Serving Regina Familys good food since 1979',
+        altDescription: 'Serving Regina Familys good food since 1979'
     },
     {
         name: 'Regent Family Restaurant',
         lat: 50.4742647934236,
         lng: -104.6363707656719,
         foursquare: '4c34a13f213c2d7f22c3385d',
-        altDescription: 'Proud to serve Regina for over 30 years',
+        altDescription: 'Proud to serve Regina for over 30 years'
     },
     {
         name: 'The Open Tap',
         lat: 50.49601,
         lng: -104.64232849999999,
         foursquare: '4bdf1d8de75c0f4705f0c903',
-        altDescription: 'Enjoy the good life at the Tap!',
+        altDescription: 'Enjoy the good life at the Tap!'
     },
     {
         name: 'East Side Marios',
         lat: 50.44679255677195,
         lng: -104.64232849999999,
         foursquare: '4b81b634f964a52051b930e3',
-        altDescription: 'Home Of All-You-Can-Eat‎',
+        altDescription: 'Home Of All-You-Can-Eat‎'
     },
     {
         name: 'Copper Kettle',
         lat: 50.447613705343315,
         lng: -104.61067164194334,
         foursquare: '4bb9188e53649c7451b547fb',
-        altDescription: 'Always a terrific lunch buffet',
+        altDescription: 'Always a terrific lunch buffet'
     },
     {
         name: 'Bocados',
         lat: 50.4462445,
         lng: -104.571313,
         foursquare: '4bd1e3e777b29c748e7f8d82',
-        altDescription: 'Laid-back eatery with live music',
+        altDescription: 'Laid-back eatery with live music'
     },
     {
         name: 'Boston Pizza',
         lat: 50.44648064015329,
         lng: -104.53598499298096,
         foursquare: '4c8ffa610b9e3704a2d3635e',
-        altDescription: 'Your among friends',
+        altDescription: 'Your among friends'
     }
 ];
 
