@@ -51,7 +51,7 @@ var locationsData = [{
         lat: 50.44679255677195,
         lng: -104.64232849999999,
         foursquare: '4b81b634f964a52051b930e3',
-        altDescription: 'Home Of All-You-Can-Eat‎'
+        altDescription: 'Home Of All You Can Eat‎'
     },
     {
         name: 'Copper Kettle',
