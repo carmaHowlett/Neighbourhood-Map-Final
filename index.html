@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Neighborhood Map: Regina, Saskatchewan</title>
+</head>
+
+<body>
+    <div id="map"></div>
+    <div class="searchContainer">
+        <!-- We called "afterkeydown" after typing a letter or number on the keyboard then the filterSearch is triggered after each input -->
+        <input class="search" data-bind="textInput: filterSearch, valueUpdate:'afterkeydown'" name="filter" type="text" placeholder="Where's your pizza at?">
+    </div>
+    <!-- Going through each of our loactions and creating a list element-->
+    <!-- The click triggers a map marker bounce, recentering the user to the marker, and an information window will appear -->
+    <ul class="list-view" data-bind="foreach: filteredLocationsData">
+        <li data-bind="text: name, attr: { id: id }, click: chooseLocationsData"></li>
+    </ul>
+    <script type="text/javascript" src="js/lib/knockout-3.4.2.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/lib/jquery-3.2.1.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBV6dN-YvGnPuIEKcZWbRNNTPXZaywVxY4&callback=initMap" async defer onerror="mapError()"></script>
+</body>
+
+</html>
